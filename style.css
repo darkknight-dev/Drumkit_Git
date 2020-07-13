@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+font-size: 62.5%;
+font-family: "Open Sans", sans-serif;
+background: url(https://i.imgur.com/b9r5sEL.jpg)  bottom center;
+background-size: cover;
+}
+
+.keys{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    flex-wrap: wrap;
+}
+
+.key{
+    border: .4rem solid black;
+    border-radius: .5rem;
+    margin: 1rem;
+    font-size: 1.5rem;
+    padding: 2rem;
+    width: 10rem;
+    text-align: center;
+    background: rgba(0,0,0,0.4);
+    text-shadow: 0 0 .5rem black;
+    color: #fff;
+    transition: all 0.07s;
+}
+kbd {
+    display: block;
+    font-size: 4rem;
+  }
+
+  .sound {
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    color: #ffc600;
+  }
+
+  .playing{
+      transform: scale(1.1);
+      border-color: #ffc600;
+      box-shadow: 0 0 1rem #ffc600;
+  }
